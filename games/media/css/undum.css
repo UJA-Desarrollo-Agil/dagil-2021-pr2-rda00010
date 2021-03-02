@@ -355,3 +355,8 @@ img.float_left {
 #menu {
     display: none;
 }
+
+/* Añadido por Víctor el 2 de marzo de 2021 */
+body {
+  font-size: 45px;   
+}
