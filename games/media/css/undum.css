@@ -18,10 +18,10 @@ body {
 
 /* The title block */
 #title, #title .label, #content, .tools {
-    border-radius: 2px;
+    border-radius: 1px;
 }
 #title {
-    max-width: 28em;
+    max-width: 20em;
     background: #e6e6c6 url("../img/title_bg.jpg") repeat -1.1em -1.1em;
     margin: 2.2em auto 1.1em auto;
     padding: 1.7em;
@@ -354,9 +354,4 @@ img.float_left {
 }
 #menu {
     display: none;
-}
-
-/* Añadido por Víctor el 2 de marzo de 2021 */
-body {
-  font-size: 45px;   
 }
