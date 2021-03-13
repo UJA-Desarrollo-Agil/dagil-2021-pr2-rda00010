@@ -97,14 +97,13 @@ undum.game.start = "start";
  * that quality will never show up in the character bar in the UI. */
 undum.game.qualities = {
     skill: new undum.IntegerQuality(
-        "Autostop", {priority:"0001", group:'stats'}
+        "mirar", {priority:"0001", group:'stats'}
     ),
     stamina: new undum.NumericQuality(
-        "Arcen", {priority:"0002", group:'stats'}
+        "nomirar", {priority:"0002", group:'stats'}
     ),
     luck: new undum.FudgeAdjectivesQuality( // Fudge as in the FUDGE RPG
-        "<span title='Skill, Stamina and Luck are reverently borrowed from the Fighting Fantasy series of gamebooks. The words representing Luck are from the FUDGE RPG. This tooltip is illustrating that you can use any HTML in the label for a quality (in this case a span containing a title attribute).'>Luck</span>",
-        {priority:"0003", group:'stats'}
+        "dormir",{priority:"0003", group:'stats'}
     ),
 
     inspiration: new undum.NonZeroIntegerQuality(
@@ -135,5 +134,5 @@ undum.game.init = function(character, system) {
     character.qualities.luck = 0;
     character.qualities.novice = 1;
     character.qualities.inspiration = 0;
-    system.setCharacterText("<p>Pensamientos que tiene Ana en cada situacion.</p>");
+    system.setCharacterText("<p>Buenas noches.</p>");
 };
