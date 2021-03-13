@@ -3,14 +3,9 @@
   <head>
     <meta charset="utf-8">
     <!-- Game Title: edit this -->
-    <title>Practica2</title>
-    <title>Practica2</title>
+    <title>Práctica 2</title>
     <!-- End of Game Title -->
 
-    <!-- Remove this if you don't use the Tangerine font in your
-         stylesheet -->
-    <link href='http://fonts.googleapis.com/css?family=Tangerine'
-          rel='stylesheet' type='text/css'>
 
     <!-- This is your game's stylesheet, modify it if you like. -->
     <link media="screen"
@@ -40,9 +35,9 @@
         <a href="#" class="button" id="menu-button">Menu</a>
       </div>
     </div>
-    <ul id="menu" style="top: -138px;">
+    <ul id="menu">
       <li><a href="#title, #content_wrapper">Story</a></li>
-      <li><a href="#character_panel">Rocío</a></li>
+      <li><a href="#character_panel">Character</a></li>
       <li><a href="#info_panel">Info</a></li>
     </ul>
 
@@ -52,25 +47,25 @@
         <div id="info_panel" class="tools left">
 
           <!-- Game Background: edit this -->
-          <h1>¿Un buen insomio o un mal despertar?</h1>
+          <h1>Introducción</h1>
           <p>
             Si estás leyendo esto es porque te ha llamado la atención el título. Pues esta es tu historia.
-            Te podría contar con más o menos gracia de qué va la cosa, para que te hicieras una ida:
-            que si la protagonista, yo, soy muy maja, que si estudio ingeniería informática y algunas noches no duermo del todo bien...
+            Te podría contar con más o menos gracia de qué va la cosa, para que te hicieras una ida: que si la protagonista,
+            yo, soy muy maja, que si estudio ingeniería informática y algunas noches no duermo del todo bien...
+          </p>
           </p>
           <!-- End of Game Background -->
 
           <div class='buttons'>
-            <button id="save">Guardar</button><button id="erase">Borrar</button>
+            <button id="Guardar">Guardar</button><button id="Eliminar">Eliminar</button>
           </div>
         </div>
 
         <div id="character_panel" class="tools right">
-          <h1>Rocío</h1>
-          <div id="character">
+          <h1>Character</h1>
+          <div id="Pensamientos internos de Ana">
             <div id="character_text">
               <div id="character_text_content"></div>
-				<p>Comienza la aventura</p>
             </div>
             <div id="qualities"></div>
           </div>
@@ -82,38 +77,33 @@
           <div class="label">
 
             <!-- Game Title: edit this -->
-            <h1>
-              ¿Un bonito insomnio o un mal despertar?
-              </h1>
-            <h2>Realizado por Rocío Domingo Aguilar</h2>
-            <!-- End of Game Title -->
+            <h1>¿UN BONITO INSOMNIO O UN MAL DESPERTAR?<span class='fancy'>&amp;</span><br>
 
-            <noscript>
-              <p class="noscript_message">This game requires
-              Javascript.</p></noscript>
-              <p class="click_message" style="display: block;">HAZ CLICK PARA COMENZAR</p>
-            </div>
+            <h2>Realizado por Rocío Domingo Aguilar</h2>
+
+
+            <noscript><p class="noscript_message">This game requires
+      End of Game Title        Javascript.</p></noscript>
+            <p class="click_message">HAZ CLICK PARA COMENZAR</p>
+          </div>
+        </div>
 
         <div id="content_wrapper">
           <div id="content">
-			<h1>Insomio por qué no te mueres</h1>
-			<p>¿Nada es tan bonito como en sueños o ningún sueño es más bonito que lo que puedes hacer en realidad?</p>
-			<hr>
-			<p>
-				Despierto sudada y temblando. Respiro profundamente varias veces para calmarme, abriendo mucho la boca para no hacer el menor ruido. Estoy mareada. La luz de la luna me ilumina la cara. Escucho un ruido. Creo que viene de debajo de mi cama, tengo miedo. Realmente estoy asustada.
-			</p>
-			<p>
-				<a href="opcion1">¿Me asomo?</a>
-				¿Cómo me trago el miedo?
-				<a href="opcion2">¿O ese ruido es fruto de mi imaginación?</a>
-
-
           </div>
           <a name="end_of_content"></a>
         </div>
+
+        <div id="legal">
+          <!-- Your Copyright: edit this -->
+          <p>Content and additional software and design &copy; 2010 IDM.</p>
+          <!-- End of Your Copyright -->
+
+          <!-- This line is totally optional. -->
+          <p>Created with <a href="http://idmillington.github.io/undum/">Undum</a>.</p>
+        </div>
       </div>
-    </div>
-    <!-- End of div.page -->
+    </div> <!-- End of div.page -->
 
     <!-- Holds UI elements that will be cloned and placed in the main
          page. This block itself is always hidden. -->
@@ -142,106 +132,6 @@
 
       <hr id="turn_separator">
     </div>
-
-    <!-- You don't need to have this block here, but it is defined in
-         the CSS file as hidden, so it is a good spot to hide content
-         you want to load from your game code. See the
-         tutorial.game.js file for details of how this is used. -->
-    <div id="content_library">
-      <div id="s_situations">
-        <h1>Situaciones</h1>
-        <p>
-          Despierto sudada y temblando.
-          Respiro profundamente varias veces para calmarme, abriendo mucho la boca para no hacer el menor ruido.
-          Estoy mareada. La luz de la luna me ilumina la cara.
-          Escucho un ruido. Creo que viene de debajo de mi cama, tengo miedo. Realmente estoy asustada.
-          ¿Me asomo? ¿Cómo me trago el miedo? ¿O ese ruido es fruto de mi imaginación?
-        </p>
-        <p>
-          At any point, the character is in exactly one situation, and
-          that situation is responsible for everything that happens to
-          them. Situations are chunks of code that generate the output
-          you are reading here. For example, this text was generated
-          by the <em>enter</em> method of the 'situations' situation.
-        </p>
-        <p class='transient'>
-          Let's <a href='todo'>move on again</a>.
-        </p>
-      </div>
-
-      <div id="s_saving">
-        <h1>Saving and Loading</h1>
-        <p>The only piece of the UI we haven't talked about is the
-          'Save' and 'Erase' buttons on the left panel. These are only
-          visible if your browser supports client-side data
-          storage. Clicking 'Save' stores your game, so you can pick
-          it up again later. There is currently no 'Load' button, the
-          game loads when the page loads. There is also no way to save
-          multiple games, and select which one you want to play. These
-          are both things I'd like to change in the future.
-        </p>
-        <p>
-          Potentially your game could generate huge amounts of
-          text. And that would be difficult to store client side
-          (there are unpredictable limits), especially when we move
-          towards having multiple save files. So instead Undum saves
-          your character as the list of links you clicked. Loading a
-          save-file consists of playing through your game again,
-          quickly. This is a beneficial approach for debugging too. It
-          means when you're polishing and correcting typos, you can
-          save and load the game and scroll through the transcript to
-          see your corrections. If we saved the text, your save file
-          would have the error in it and you'd have to manually replay
-          the game to see the correction.
-        </p>
-        <p class='transient'>
-          Let's return to the <a href='hub'>topic list</a>.
-        </p>
-      </div>
-
-      <!-- Some situations defined entirely in the HTML -->
-      <div id="hub" class="situation" data-choices="#topic"
-           data-option-text="View Topic List">
-        <h1 class="transient">Topics</h1>
-        <p class="transient">Choose a topic to find out about next. If
-          in doubt, go through the topics in order.</p>
-      </div>
-
-      <div id="implicit" class="situation" data-tags="topic"
-           data-heading="Implicit Choices" data-display-order="7"
-           data-choices="#example">
-        <p>When you're writing an Undum game, you often need certain
-          options to be available only when certain conditions hold. You
-          might have an option to remove a secret panel in a haunted
-          house, but that should only be visible if the character knows
-          where it is. If options are available in lots of situations, it
-          can be very difficult to keep track of what options are
-          allowed, and to produce just the right list of choices.</p>
-        <p>To help with this, Undum can generate a list of situation
-          links for you. It does this in three steps. Firstly, each
-          situation can be given one or more tags, this allows you to
-          easily ask for links to all situations with the 'in-hallway'
-          tag, for example. Secondly, situations can have
-          a <em>canView</em> method, which gets to decide whether that
-          situation should appear. That method can look at the
-          current state of the character to decide whether to appear
-          or not. Thirdly, <em>SimpleSituation</em>s have a <em>choices</em>
-          option. If it is set to one or more tags, it handles the building
-          of the choice list.</p>
-        <p>You've seen this already in the topic list. The topic list
-          is generated automatically. All of the situations in the topic
-          list are always available, however.
-          <span class="transient">So here is an example of
-          automatic options that may change:</span></p>
-      </div>
-
-      <div id="example-choices" class="situation" data-choices="#example">
-        <p class="transient">You can return to the
-          <a href='hub'>Topic List</a> or choose another option from
-          this example:</p>
-      </div>
-    </div>
-
     <!-- Load the libraries we depend on -->
     <script type="text/javascript" src="media/js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="media/js/undum.js"></script>
