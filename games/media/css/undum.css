@@ -18,10 +18,10 @@ body {
 
 /* The title block */
 #title, #title .label, #content, .tools {
-    border-radius: 1px;
+    border-radius: 2px;
 }
 #title {
-    max-width: 20em;
+    max-width: 28em;
     background: #e6e6c6 url("../img/title_bg.jpg") repeat -1.1em -1.1em;
     margin: 2.2em auto 1.1em auto;
     padding: 1.7em;
