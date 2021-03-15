@@ -37,8 +37,7 @@ undum.game.situations = {
         <a href='mirar'>¿Me asomo?</a>\
         ¿Cómo me trago el miedo?\
         <a href='nomirar'>¿O ese ruido es fruto de mi imaginación?</a></p>"
-    )
-    ,
+    ),
 
 
     situations: new undum.Situation({
@@ -48,8 +47,8 @@ undum.game.situations = {
         tags: ["topic"],
         optionText: "What Undum Games are Made Of",
         displayOrder: 1
-    })
-    ,
+    }),
+    
     mirar: new undum.SimpleSituation(
         "<p>Pienso. El miedo es como el dolor, hay que sentirlo para acabar con él.\
         Hay que sentir el miedo para aprender a vencerlo.\
@@ -70,7 +69,7 @@ nomirar: new undum.SimpleSituation(
         tal y como ella decía a menudo.<<Incluso si no quieres contárselo a nadie, o si no puedes por otras circunstancias,\
         o si ya no tiene sentido, aunque no sentimiento, a algo que debió decirse pero no se dijo.\
         Para evitar que ese sentimiento se enquiste, díselo a la luna. Es imposible no confiar en ella. Ella no juzga ni aconseja,\
-        solo escucha>>\
+        solo escucha>>.\
         </p>",
          {
             heading: "Continúo mirando la luna.",
