@@ -37,7 +37,8 @@ undum.game.situations = {
         <a href='mirar'>¿Me asomo?</a>\
         ¿Cómo me trago el miedo?\
         <a href='nomirar'>¿O ese ruido es fruto de mi imaginación?</a>"
-    ),
+    )
+    ,
 
 
     situations: new undum.Situation({
@@ -47,14 +48,15 @@ undum.game.situations = {
         tags: ["topic"],
         optionText: "What Undum Games are Made Of",
         displayOrder: 1
-    }),
+    })
+    ,
     mirar: new undum.SimpleSituation(
         "<p>Pienso. El miedo es como el dolor, hay que sentirlo para acabar con él.\
         Hay que sentir el miedo para aprender a vencerlo.\
         Asomo, curiosa y temblorosa, el espejo de mano debajo de la cama y miro a los ojos a mi perrito.\
         Son los ojos más bellos y peligrosos que he visto jamás. No sé si estoy lo suficientemente cansada\
-        <a href='domir'>como para volverme a dormir.</a>
-        <a href='nomirar'>Miro la luna,</a>
+        <a href='domir'>como para volverme a dormir.</a>\
+        <a href='nomirar'>Miro la luna,</a>\
         está preciosa.\
         </p>",
          {
@@ -65,10 +67,10 @@ undum.game.situations = {
 ),
 nomirar: new undum.SimpleSituation(
         "<p>Mi amiga una vez me aconsejó que si algo me impedía contar ciertas cosas, mirase hace la luna y se lo confesara a ella,\
-        tal y como ella decía a menudo. << Incluso si no quieres contárselo a nadie, o si no puedes por otras circunstancias,\
+        tal y como ella decía a menudo. &lt;&lt;Incluso si no quieres contárselo a nadie, o si no puedes por otras circunstancias,\
         o si ya no tiene sentido, aunque no sentimiento, a algo que debió decirse pero no se dijo.\
         Para evitar que ese sentimiento se enquiste, díselo a la luna. Es imposible no confiar en ella. Ella no juzga ni aconseja,\
-        solo escucha>>.\
+        solo escucha&gt;&gt;\
         </p>",
          {
             heading: "Continúo mirando la luna.",
@@ -77,7 +79,7 @@ nomirar: new undum.SimpleSituation(
         }
 ),
 domir: new undum.SimpleSituation(
-        "<p>Apago la luz y vuelvo a dormir.\
+        "<p>Apago la luz y vuelvo a dormir\
         </p>",
          {
             heading: "Buenas noches.",
