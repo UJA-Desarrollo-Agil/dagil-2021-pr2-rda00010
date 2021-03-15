@@ -53,9 +53,9 @@ undum.game.situations = {
         Hay que sentir el miedo para aprender a vencerlo.\
         Asomo, curiosa y temblorosa, el espejo de mano debajo de la cama y miro a los ojos a mi perrito.\
         Son los ojos más bellos y peligrosos que he visto jamás. No sé si estoy lo suficientemente cansada\
-        <a href='domir'>como para volverme a dormir.</a>\
-        <a href='nomirar'>Miro la luna,</a>\
-        está preciosa.
+        <a href='domir'>como para volverme a dormir.</a>
+        <a href='nomirar'>Miro la luna,</a>
+        está preciosa.\
         </p>",
          {
             heading: "<<Deja de hablarle al miedo y dejará de escucharte>>.",
@@ -68,7 +68,7 @@ nomirar: new undum.SimpleSituation(
         tal y como ella decía a menudo. << Incluso si no quieres contárselo a nadie, o si no puedes por otras circunstancias,\
         o si ya no tiene sentido, aunque no sentimiento, a algo que debió decirse pero no se dijo.\
         Para evitar que ese sentimiento se enquiste, díselo a la luna. Es imposible no confiar en ella. Ella no juzga ni aconseja,\
-        solo escucha>>.
+        solo escucha>>.\
         </p>",
          {
             heading: "Continúo mirando la luna.",
@@ -77,7 +77,7 @@ nomirar: new undum.SimpleSituation(
         }
 ),
 domir: new undum.SimpleSituation(
-        "<p>Apago la luz y vuelvo a dormir.
+        "<p>Apago la luz y vuelvo a dormir.\
         </p>",
          {
             heading: "Buenas noches.",
