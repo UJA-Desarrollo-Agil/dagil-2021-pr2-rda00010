@@ -7,3 +7,5 @@ Es un juego interactivo donde permito que el jugador eliga qué decisión voy a 
 - URL de mi tablero de Trello:
 https://trello.com/b/aCVU3cvk/pr%C3%A1ctica-2
 
+- Trello y Telegram:
+Las fotos se encuentran fuera del README.md porque no me permitía incluirlas aquí.
