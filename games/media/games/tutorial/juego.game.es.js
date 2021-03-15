@@ -36,7 +36,7 @@ undum.game.situations = {
         Creo que viene de debajo de mi cama, tengo miedo. Realmente estoy asustada.\
         <a href='mirar'>¿Me asomo?</a>\
         ¿Cómo me trago el miedo?\
-        <a href='nomirar'>¿O ese ruido es fruto de mi imaginación?</a>"
+        <a href='nomirar'>¿O ese ruido es fruto de mi imaginación?</a></p>"
     )
     ,
 
@@ -67,10 +67,10 @@ undum.game.situations = {
 ),
 nomirar: new undum.SimpleSituation(
         "<p>Mi amiga una vez me aconsejó que si algo me impedía contar ciertas cosas, mirase hace la luna y se lo confesara a ella,\
-        tal y como ella decía a menudo. &lt;&lt;Incluso si no quieres contárselo a nadie, o si no puedes por otras circunstancias,\
+        tal y como ella decía a menudo.<<Incluso si no quieres contárselo a nadie, o si no puedes por otras circunstancias,\
         o si ya no tiene sentido, aunque no sentimiento, a algo que debió decirse pero no se dijo.\
         Para evitar que ese sentimiento se enquiste, díselo a la luna. Es imposible no confiar en ella. Ella no juzga ni aconseja,\
-        solo escucha&gt;&gt;\
+        solo escucha>>\
         </p>",
          {
             heading: "Continúo mirando la luna.",
