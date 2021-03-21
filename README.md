@@ -9,3 +9,7 @@ https://trello.com/b/aCVU3cvk/pr%C3%A1ctica-2
 
 - Trello y Telegram:
 Las fotos se encuentran fuera del README.md porque no me permitía incluirlas aquí.
+
+## Esta es una demostración de que SÍ se pueden meter imágenes en README.md
+
+<img width="70%" src="https://raw.githubusercontent.com/UJA-Desarrollo-Agil/dagil-2021-pr2-rda00010/master/Captura%20de%20pantalla%20(26).png">
